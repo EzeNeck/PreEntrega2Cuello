@@ -16,20 +16,6 @@ body {
   text-align: center;
 }
 
-header {
-  background-color: rgb(0, 0, 0);
-  justify-content: center;
-  display: flex;
-  background-size: cover;
-  gap: 10px;
-}
-
-header {
-  background-color: black;
-  justify-content: center;
-  align-items: center;
-}
-
 .cuadro {
   display: flex;
   text-align: center;
@@ -65,7 +51,6 @@ article {
 .logo {
   width: 200px;
   display: flex;
-
 }
 
 .imagen {
@@ -80,12 +65,10 @@ article {
 }
 
 section {
-  padding-inline: 150px;
+  padding-inline: 40px;
   display: grid;
   grid-template-columns: 1fr;
 }
-
-
 
 button {
   padding: 10px 40px;
@@ -96,25 +79,20 @@ button {
   color: rgb(255, 255, 255);
 }
 
-
 img {
   animation-name: historia1moviemiento;
   animation-duration: 1s;
   animation-delay: 0s;
-  animation-timing-function: ease-in-out  ;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: 2;
   animation-direction: alternate;
 }
 
 @keyframes historia1moviemiento {
   from {
-      width: 200px;
-  
+    width: 200px;
   }
   to {
-      width: 50%;
-
+    width: 50%;
   }
-
-
-
+}
