@@ -1,18 +1,26 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+article {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(203, 203, 203);
+  text-decoration: solid;
+  background-color: rgba(9, 9, 9, 0.59);
 }
 
 body {
   font-family: "Alkalami", serif;
 }
 
-.titulo {
-  font-size: 3.5rem;
-  color: rgb(4, 0, 8);
-  text-decoration: underline;
-  font-weight: 100;
+button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(to right, #0847c4, #ae99ec);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+.comentarios {
+  color: black;
   text-align: center;
 }
 
@@ -36,16 +44,14 @@ footer {
   color: white;
 }
 
-article {
-  text-align: center;
-  text-decoration: none;
-  color: rgb(236, 218, 218);
-  text-decoration: solid;
-  background-color: rgba(75, 81, 81, 0.351);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.comentarios {
-  color: black;
-  text-align: center;
+
+.imagen {
+  border-radius: 25px;
 }
 
 .logo {
@@ -53,46 +59,17 @@ article {
   display: flex;
 }
 
-.imagen {
-  border-radius: 25px;
-}
-
-.elaboracion1 {
-  width: 400px;
-}
-.elaboracion2 {
-  width: 500px;
-}
-
 section {
   padding-inline: 40px;
   display: grid;
-  grid-template-columns: 1fr;
 }
 
-button {
-  padding: 10px 40px;
-  border: none;
-  border-radius: 5px;
-  background: linear-gradient(to right, #0847c4, #ae99ec);
-  cursor: pointer;
-  color: rgb(255, 255, 255);
+.titulo {
+  font-size: 3.5rem;
+  color: rgb(4, 0, 8);
+  text-decoration: underline;
+  font-weight: 100;
+  text-align: center;
 }
 
-img {
-  animation-name: historia1moviemiento;
-  animation-duration: 1s;
-  animation-delay: 0s;
-  animation-timing-function: ease-in-out;
-  animation-iteration-count: 2;
-  animation-direction: alternate;
-}
-
-@keyframes historia1moviemiento {
-  from {
-    width: 200px;
-  }
-  to {
-    width: 50%;
-  }
-}
+/*# sourceMappingURL=style.css.map */
